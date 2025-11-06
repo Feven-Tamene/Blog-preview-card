@@ -1,0 +1,78 @@
+body{
+    background-color:  hsl(47, 88%, 63%);
+    text-align: center;
+}
+#box{
+     width: 250px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    gap: 14px;
+    background-color: white;
+    box-shadow: 12px 6px 12px rgba(1, 1, 1, 1);
+    text-align: left;
+
+}
+#learning{
+    background-color: hsl(47, 88%, 63%);
+   font-weight:700;
+   color: hsl(0, 0%, 7%);
+    padding: 5px;
+    border-radius: 3px;
+    justify-content: flex-start;
+    text-align: left;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: fit-content;
+}
+#contener{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  height: 100vh; 
+  font-family: Arial, Helvetica, sans-serif;
+  
+  
+}
+#p1 {
+    font-size: 9px;
+    font: weight 100px;
+}
+img{
+    border-radius: 7px;
+    margin: 0;
+     float: left;
+}
+p{
+    margin:0 ;
+    justify-content: left;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 900;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+#p3{
+    font-size: 14px;
+    font-weight: 500;
+    
+    text-align: left;
+
+}
+
+.profile-pic.name{
+    font-weight: 500;
+  color: #222;
+  margin: 0;
+  font-size: 2px;
+}
+.profile-pic img{
+    width: 30px;
+  height: 30px;
+  border-radius: 50%;             
+  margin-right: 10px;
+}
